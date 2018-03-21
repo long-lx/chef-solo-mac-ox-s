@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # uninstall old ruby versions
-brew uninstall ruby-build
 brew uninstall rbenv
+brew uninstall ruby-build
 brew uninstall ruby
 
 # install new ruby versions
