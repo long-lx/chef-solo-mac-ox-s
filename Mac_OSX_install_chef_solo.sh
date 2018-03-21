@@ -9,7 +9,9 @@ brew uninstall ruby
 brew install rbenv ruby-build
 
 # initializes rbenv
+rbenv init
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+source ~/.bash_profile
 
 # install ruby 2.3.1
 rbenv install 2.3.1
